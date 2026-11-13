@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 260" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- ISB Hyderabad campus, line-art skyline. Navy strokes, sky-blue glass. -->
+  <style>
+    .l { stroke: #0b2a6b; stroke-width: 3; }
+    .t { stroke: #0b2a6b; stroke-width: 2; opacity: .55; }
+    .g { fill: #2fb8ef; }
+    .gs { fill: #2fb8ef; opacity: .28; }
+    .tr { fill: #2fb8ef; opacity: .9; }
+  </style>
+
+  <!-- ground -->
+  <path class="t" d="M0 238 H1920"/>
+
+  <!-- tree, far left -->
+  <g>
+    <path class="l" d="M96 238 V214"/>
+    <path class="tr" d="M96 216c-16 0-26-9-26-20 0-9 6-15 13-17 1-10 8-16 15-16s14 6 15 15c8 2 14 9 14 18 0 11-10 20-31 20z"/>
+    <path d="M86 202l10 6 10-8" stroke="#fff" stroke-width="2"/>
+  </g>
+
+  <!-- ===== Academic block (left) ===== -->
+  <!-- long low wing with sloped roof -->
+  <path class="l" d="M140 238 V212 L470 186"/>
+  <path class="t" d="M140 222 L470 196"/>
+  <rect class="g" x="168" y="210" width="96" height="22" rx="2"/>
+  <rect class="g" x="292" y="176" width="58" height="40" rx="3"/>
+  <path class="l" d="M292 216 V176 h58 v24"/>
+
+  <!-- curved auditorium roof -->
+  <path class="l" d="M330 176 C 400 138, 500 132, 580 142"/>
+  <path class="t" d="M350 168 C 420 140, 500 138, 572 148"/>
+  <!-- towers -->
+  <path class="l" d="M520 140 V112 h52 v30"/>
+  <path class="l" d="M572 110 h44 v54"/>
+  <path class="t" d="M590 120 v40 M604 120 v40"/>
+  <path class="l" d="M440 150 v-26 h70 v20"/>
+
+  <!-- main hall facade -->
+  <path class="l" d="M470 238 V186 L600 166 L760 178 V238"/>
+  <path class="l" d="M440 196 L600 172 L780 186"/>
+  <!-- arched windows -->
+  <g class="g">
+    <path d="M520 214 v-14 a6 6 0 0 1 12 0 v14z"/>
+    <path d="M556 214 v-14 a6 6 0 0 1 12 0 v14z"/>
+  </g>
+  <g class="l" stroke-width="2.5">
+    <path d="M594 214 v-14 a6 6 0 0 1 12 0 v14z"/>
+    <path d="M630 214 v-14 a6 6 0 0 1 12 0 v14z"/>
+    <path d="M666 214 v-14 a6 6 0 0 1 12 0 v14z"/>
+  </g>
+  <path class="t" d="M500 218 H740"/>
+  <!-- grand steps -->
+  <path class="t" d="M380 238 L452 196 M400 238 L466 200 M420 238 L478 204"/>
+  <!-- ramp -->
+  <path class="l" d="M760 238 L850 228 L900 238"/>
+
+  <!-- tree, centre -->
+  <g>
+    <path class="l" d="M960 238 V212"/>
+    <path class="tr" d="M960 214c-16 0-26-9-26-20 0-9 6-15 13-17 1-10 8-16 15-16s14 6 15 15c8 2 14 9 14 18 0 11-10 20-31 20z"/>
+    <path d="M950 200l10 6 10-8" stroke="#fff" stroke-width="2"/>
+  </g>
+
+  <!-- ===== Pavilion (right) ===== -->
+  <!-- thin flat roof -->
+  <path class="l" d="M1040 182 L1300 168 L1380 186"/>
+  <path class="t" d="M1048 188 L1300 175 L1372 191"/>
+  <!-- columns -->
+  <path class="l" d="M1062 186 V238 M1110 184 V238 M1300 175 V238 M1350 186 V238"/>
+  <path class="t" d="M1158 182 V238 M1206 180 V238 M1254 178 V238"/>
+  <!-- glass -->
+  <rect class="gs" x="1112" y="196" width="186" height="42"/>
+  <rect class="g" x="1124" y="204" width="52" height="30" rx="2"/>
+  <rect class="g" x="1186" y="204" width="52" height="30" rx="2"/>
+  <rect class="g" x="1248" y="204" width="44" height="30" rx="2"/>
+
+  <!-- annex blocks -->
+  <path class="l" d="M1380 238 V200 L1420 188 H1520 V214"/>
+  <rect class="g" x="1424" y="188" width="96" height="26" rx="2"/>
+  <path class="g" d="M1396 212 h10 v14 h-10z M1412 212 h10 v14 h-10z"/>
+  <path class="l" d="M1520 238 V214 H1600 V238"/>
+  <rect class="g" x="1534" y="220" width="54" height="12" rx="2"/>
+  <path class="l" d="M1600 222 L1680 206 H1780 V238"/>
+  <rect class="g" x="1700" y="214" width="62" height="18" rx="2"/>
+  <path class="t" d="M1780 230 H1840"/>
+
+  <!-- tree, far right -->
+  <g>
+    <path class="l" d="M1840 238 V214"/>
+    <path class="tr" d="M1840 216c-16 0-26-9-26-20 0-9 6-15 13-17 1-10 8-16 15-16s14 6 15 15c8 2 14 9 14 18 0 11-10 20-31 20z"/>
+    <path d="M1830 202l10 6 10-8" stroke="#fff" stroke-width="2"/>
+  </g>
+</svg>
